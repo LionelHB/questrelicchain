@@ -4,14 +4,17 @@
 @import "tools/slogan";
 @import "tools/responsive";
 @import "tools/design";
-@import "tools/container";
+@import "tools/form";
+
 
 //***FONTS
 @import "font/fonts";
 
 
 
+//***CONTAIN
+@import "contain/bases";
+@import "contain/header";
+@import "contain/footer";
+@import "contain/container";
 
-@import "bases";
-@import "header";
-@import "footer";

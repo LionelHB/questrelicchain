@@ -1,0 +1,25 @@
+main {
+    padding: 5% 0;
+    background: $gradientbgmain;
+
+    #container {
+        border-radius: 20px;
+        margin: 0 5% 2rem;
+        padding: 0 5%;
+        background: $gradientbgcontain;
+
+        .maincontain {
+            padding: 5%;
+
+            h2 {
+                font-family: $dalelandsBold;
+                margin: 0;
+                font-size: 2rem;
+            }
+
+            p {
+                font-family: $breathe;
+            }
+        }
+    }
+}

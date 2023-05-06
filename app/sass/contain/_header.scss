@@ -1,0 +1,25 @@
+header {
+    span{
+        display: none;
+    }
+    background: $gradientbgcontain;
+    display: flex;
+    align-items: stretch;
+    height: 100px;
+
+    h1 {
+        margin: 1rem 10rem;
+        
+        width: max-content;
+        font-size: 3rem;
+        font-family: $darkshadow;
+        color: rgb(0, 0, 0);
+    }
+
+    #logoSite {
+        img {
+            height: 150px;
+            width: 150px;
+        }
+    }
+}
