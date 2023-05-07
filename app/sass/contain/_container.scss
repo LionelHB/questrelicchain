@@ -10,8 +10,14 @@ main {
 
         .maincontain {
             padding: 5%;
+            border-radius: 40px;
+            margin: 3rem auto;
+            font-family: $breathe;
+            text-align: center;
 
             h2 {
+                text-align: center;
+                margin-bottom: 3rem;
                 font-family: $dalelandsBold;
                 margin: 0;
                 font-size: 2rem;
@@ -19,6 +25,31 @@ main {
 
             p {
                 font-family: $breathe;
+                color: $darkbluetext;
+
+                &::first-letter {
+                    font-size: 2rem;
+                    padding-left: 2rem;
+                }
+            }
+
+            a {
+                color: $darkbluetext;
+                text-decoration: none;
+
+                p {
+                    margin-top: 2rem;
+                    text-align: end;
+
+                    &::first-letter {
+                        font-size: 1rem;
+                    }
+
+                    &:hover {
+                        text-decoration: underline;
+                        text-shadow: 1px 1px 0px;
+                    }
+                }
             }
         }
     }

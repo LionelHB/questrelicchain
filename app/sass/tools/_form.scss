@@ -2,18 +2,17 @@
       .containerform {
         form {
             display: flex;
-            justify-content: center;
-            align-items: flex-end;
+            align-items: center;
+            flex-direction: column;
             padding-bottom: 3rem;
         }
 
         .textform {
 
             input {
-                width: 10rem;
-                color: $lightbg;
+                width: 4rem;
+                color: $lighttext;
                 margin: 0.5rem;
-                border: none;
                 border-radius: 10px;
                 padding: 0.5rem 2rem;
                 background: $gradientbgcontain;
@@ -21,17 +20,17 @@
 
                 &::placeholder {
                     font-family: $dalelands;
-                    color: $lightbg;
+                    color: $darkbluetext;
                 }
 
                 &:focus {
                     background: none;
-                    background-color: $lightbg;
-                    color: $darkbgandtext;
+                    background-color: $lighttext;
+                    color: $darkbluetext;
                     font-weight: bold;
 
                     &::placeholder {
-                        color: $darkbgandtext;
+                        color: $darkbluetext;
                         font-weight: bold;
                     }
                 }
@@ -48,9 +47,10 @@
         }
 
         textarea {
-            width: 20rem;
+            width: 10rem;
             resize: none;
-            color: $lightbg;
+            color: $darkbluetext;
+            margin: 1rem 0;
             padding: 1rem;
             margin-right: 1rem;
             border-radius: 10px;
@@ -58,12 +58,12 @@
 
             &:focus {
                 background: none;
-                background-color: $lightbg;
-                color: $darkbgandtext;
+                background-color: $lighttext;
+                color: $darkbluetext;
                 font-weight: bold;
 
                 &::placeholder {
-                    color: $darkbgandtext;
+                    color: $darkbluetext;
                     font-weight: bold;
                 }
             }
@@ -71,22 +71,7 @@
             &::placeholder {
 
                 font-family: $dalelands;
-                color: $lightbg;
-
-            }
-        }
-
-        button {
-            border-radius: 10px;
-            width: 80px;
-            height: 30px;
-            background: $gradientbgcontain;
-            font-family: $dalelands;
-            color: $lightbg;
-            transition: all 0.5s cubic-bezier(0.10, 0, 0.1, -3);
-
-            &:hover {
-                scale: 1.4;
+                color: $darkbluetext;
 
             }
         }
@@ -100,8 +85,8 @@
                 padding: 0;
 
                 a {
-                    border-bottom: solid 1px $darkbgandtext;
-                    color: $darkbgandtext;
+                    border-bottom: solid 1px $darkbluetext;
+                    color: $darkbluetext;
 
                     &:hover {
                         text-shadow: 1px 1px 0px;

@@ -1,25 +1,39 @@
 header {
-    span{
+    span {
         display: none;
     }
+
     background: $gradientbgcontain;
     display: flex;
-    align-items: stretch;
+    justify-content: space-around;
     height: 100px;
 
-    h1 {
-        margin: 1rem 10rem;
-        
-        width: max-content;
-        font-size: 3rem;
-        font-family: $darkshadow;
-        color: rgb(0, 0, 0);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: center;
+    align-items: flex-end;
+
+    a {
+        width: fit-content;
+        height: fit-content;
+        text-decoration: none;
+
+        h1 {
+            margin-right: 1rem;
+            width: max-content;
+            font-size: 1.6rem;
+            font-family: $darkshadow;
+            color: rgb(0, 0, 0);
+        }
     }
 
     #logoSite {
         img {
-            height: 150px;
-            width: 150px;
+            height: 100px;
+            width: 100px;
         }
     }
+
+
 }

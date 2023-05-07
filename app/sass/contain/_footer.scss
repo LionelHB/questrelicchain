@@ -1,0 +1,90 @@
+// FOOTER
+// *******************************
+footer {
+    position: relative;
+    border-top: 2px solid $gregecolor;
+
+    .containerfooter {
+        background-color: black;
+
+        #footercontent {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+
+
+            p {
+                font-family: $dalelands;
+                padding: 1rem 0 0 1rem;
+                color: $gregecolor;
+            }
+
+            #lastnfts {
+                margin: 1rem 0 1rem 3rem;
+                width: 70px;
+                height: 70px;
+                background-image: url(../assets/nft/equipment/armor/armor05.webp);
+                background-repeat: no-repeat;
+                background-size: cover;
+                cursor: pointer;
+                transition: all 0.5s ease-in-out;
+
+                &:hover {
+                    scale: 4;
+                    transform: translateX(18px) translateY(18px);
+                }
+
+            }
+        }
+
+        .copyright {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+
+            p {
+                font-family: $dalelands;
+                margin: 0;
+                color: $gregecolor;
+                padding: 0 0.5rem 1rem 0;
+
+                a {
+                    text-decoration: none;
+                    color: $gregecolor;
+
+                    &:hover {
+                        text-shadow: 0.5px 0.5px;
+                        text-decoration: underline;
+                    }
+                }
+
+            }
+        }
+
+        ul {
+            font-family: $dalelands;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            margin: 0;
+            padding: 0 0.5rem 1rem 0;
+
+
+            li {
+                padding-top: 1rem;
+                list-style: none;
+                text-align: end;
+
+                a {
+                    text-decoration: none;
+                    color: $gregecolor;
+
+                    &:hover {
+                        text-shadow: 0.5px 0.5px;
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}

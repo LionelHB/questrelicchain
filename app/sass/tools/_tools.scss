@@ -1,0 +1,21 @@
+    //***BUTTON
+    .questbutton {
+        cursor: pointer;
+        border-radius: 10px;
+        width: 80px;
+        height: 30px;
+        background: $gradientbgcontain;
+        font-family: $breathe;
+        font-size: 1.2rem;
+        margin: 0 0.5rem;
+        padding: 0;
+        color: $darkbluetext;
+        transition: all 0.5s ease-in-out;
+
+        &:hover {
+            scale: 1.4;
+        }
+    }
+    #loginbutton{
+        margin-right: 1rem;
+    }
