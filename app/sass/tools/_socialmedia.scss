@@ -1,0 +1,97 @@
+//social média
+#socialmedianav {
+    margin: 2% 0 0 4.5%;
+
+    ul {
+        list-style: none;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+
+        li {
+            margin: 0 0.4rem;
+        }
+    }
+
+    .socialmedialogo {
+        border-radius: 50%;
+        transition: 0.3s ease-in-out;
+        border: solid 2px $gregecolor;
+        margin-top: 0.5rem;
+        height: 35px;
+        width: 35px;
+    }
+
+    #facebooklogo {
+        background-image: url(../assets/logo/socialmedia/facebooklogo.webp);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+
+        &:hover {
+            border-radius: 50%;
+            background-position: bottom;
+        }
+    }
+
+    #instagramlogo {
+        background-image: url(../assets/logo/socialmedia/instagramlogo.webp);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+
+        &:hover {
+            border-radius: 50%;
+            background-position: bottom;
+        }
+    }
+
+    #twitterlogo {
+        background-image: url(../assets/logo/socialmedia/twitterlogo.webp);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+
+        &:hover {
+            border-radius: 50%;
+            background-position: bottom;
+        }
+    }
+
+    #tiktoklogo {
+        background-image: url(../assets/logo/socialmedia/tiktoklogo.webp);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+
+        &:hover {
+            border-radius: 50%;
+            background-position: bottom;
+        }
+    }
+
+    #youtubelogo {
+        background-image: url(../assets/logo/socialmedia/youtubelogo.webp);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+
+        &:hover {
+            border-radius: 50%;
+            background-position: bottom;
+        }
+    }
+
+    #linkedinlogo {
+        background-image: url(../assets/logo/socialmedia/linkedinlogo.webp);
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+
+        &:hover {
+            border-radius: 50%;
+            background-position: bottom;
+        }
+    }
+
+}

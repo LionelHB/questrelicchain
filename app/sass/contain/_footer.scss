@@ -41,11 +41,11 @@ footer {
             display: flex;
             flex-direction: column-reverse;
             align-items: flex-end;
-            
+
 
             #footerleft {
                 display: flex;
-                margin: 3rem 1rem 0;
+                margin: 1rem 1rem 0;
 
                 #charactercopyright {
                     font-size: 1rem;
@@ -72,27 +72,29 @@ footer {
             }
         }
 
-        ul {
-            font-family: $dalelands;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            margin: 0;
-            padding: 0 0.5rem 1rem 0;
+        #sitelink {
+            ul {
+                font-family: $dalelands;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                margin: 0;
+                padding: 0 0.5rem 1rem 0;
 
 
-            li {
-                padding-top: 1rem;
-                list-style: none;
-                text-align: end;
+                li {
+                    list-style: none;
+                    text-align: end;
+                    padding-top: 1rem;
 
-                a {
-                    text-decoration: none;
-                    color: $gregecolor;
+                    a {
+                        text-decoration: none;
+                        color: $gregecolor;
 
-                    &:hover {
-                        text-shadow: 0.5px 0.5px;
-                        text-decoration: underline;
+                        &:hover {
+                            text-shadow: 0.5px 0.5px;
+                            text-decoration: underline;
+                        }
                     }
                 }
             }
