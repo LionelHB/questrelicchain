@@ -1,41 +1,40 @@
 //MENU FROM BURGER ***********************
 // **************************************
-// let myMenuBurger = document.getElementById("sidenav");
-// let myNav = document.querySelector(".mynav");
-// let myBurger = document.getElementById("myburger");
-// let isMenuOpen = false;
+let myMenuBurger = document.getElementById("sidenav");
+let myNav = document.querySelector(".mynav");
+let myBurger = document.getElementById("myburger");
+let isMenuOpen = false;
 
-// document.addEventListener("click", function (event) {
-//   if (!myNav.contains(event.target) && !myBurger.contains(event.target)) {
-//     closeMenu();
-//   }
-// });
+document.addEventListener("click", function (event) {
+  if (!myNav.contains(event.target) && !myBurger.contains(event.target)) {
+    closeMenu();
+  }
+});
 
-// myBurger.addEventListener("click", function () {
-//   if (!isMenuOpen) {
-//     openMenu();
-//   } else {
-//     closeMenu();
-//   }
-// });
+myBurger.addEventListener("click", function () {
+  if (!isMenuOpen) {
+    openMenu();
+  } else {
+    closeMenu();
+  }
+});
 
-// function openMenu() {
-//   myMenuBurger.style.display = "block";
-//   myNav.style.width = "120px";
-//   myNav.style.height = "350px";
-//   myBurger.style.backgroundPosition = "left";
-//   myBurger.style.transform = "translateX(30px)";
-//   isMenuOpen = true;
-// }
+function openMenu() {
+  myMenuBurger.style.display = "block";
+  myNav.style.width = "120px";
+  myNav.style.height = "350px";
+  myBurger.style.rotate = "90deg";
+  isMenuOpen = true;
+}
 
-// function closeMenu() {
-//   myMenuBurger.style.display = "none";
-//   myNav.style.width = "50px";
-//   myNav.style.height = "50px";
-//   myBurger.style.backgroundPosition = "right";
-//   myBurger.style.transform = "translateX(0px)";
-//   isMenuOpen = false;
-// }
+function closeMenu() {
+  myMenuBurger.style.display = "none";
+  myNav.style.width = "50px";
+  myNav.style.height = "50px";
+  myBurger.style.backgroundPosition = "right";
+  myBurger.style.transform = "translateX(0px)";
+  isMenuOpen = false;
+}
 
 // //***Sticky Nav*** */
 // window.addEventListener("scroll", function () {
@@ -123,13 +122,6 @@ myButtonLogIn.addEventListener("click", function () {
   }
 });
 
-document.addEventListener("click", function (event) {
-  if (!myPopUpLogIn.contains(event.target) && !myPopUpRegister.contains(event.target) && event.target !== myButtonLogIn) {
-    myPopUpLogIn.style.transform = "translateY(-1000px)",
-      myPopUpRegister.style.transform = "translateY(-1000px)";
-  }
-});
-
 //***register*** */
 let myButtonRegister = document.getElementById("registerbtn");
 let myPopUpRegister = document.getElementById("popupregister");
@@ -142,6 +134,12 @@ myButtonRegister.addEventListener("click", function () {
   }
 });
 
+document.addEventListener("click", function (event) {
+  if (!myPopUpLogIn.contains(event.target) && !myPopUpRegister.contains(event.target) && event.target !== myButtonLogIn && event.target !== myButtonRegister) {
+    myPopUpLogIn.style.transform = "translateY(-1000px)";
+    myPopUpRegister.style.transform = "translateY(-1000px)";
+  }
+});
 
 
 //FOOTER LAST NFT ***********************

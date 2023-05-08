@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>L'accueil QuestRelic Chain</title>
-    <link rel="shortcut icon" href="assets/tools/shortcuticon.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/tool/shortcuticon.webp" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -16,7 +16,7 @@
                     HEADER*************************** ********* -->
     <header>
         <div id="logoSite"><a href="index.html">
-                <img src="assets/logo/logo.webp" alt=""><span>logo QuestRelic Chain</span>
+                <img src="assets/logo/logoquestrelic.webp" alt=""><span>logo QuestRelic Chain</span>
             </a>
         </div>
 
@@ -25,9 +25,6 @@
                     QuestRelic Chain site
                 </span></h1>
         </a>
-
-
-        <div id="burger"> </div>
 
         <!-- Login** -->
         <div id="loginbutton">
@@ -38,7 +35,7 @@
 
         <!-- PopUp Login** -->
         <div id="popuplogin">
-            <div class="totalpopup ">
+            <div class="totalpopup logpop">
                 <p>Connectez vous !</p>
 
                 <img src="assets/design/designlogin.webp" alt="">
@@ -53,20 +50,20 @@
                     <label for="password"></label>
                     <input type="password" placeholder="Mot de passe">
 
-                    <button type="submit">Connexion</button>
+                    <button class="questbutton" type="submit">Connexion</button>
                 </form>
             </div>
         </div>
 
         <!-- PopUp inscription** -->
         <div id="popupregister">
-            <div class="totalpopup">
-
-                <p></p>
+            <div class="totalpopup regipop">
                 <p>Rejoignez nous !</p>
 
-                <img src="assets/design/designregister1.webp" alt=""> <img src="assets/design/designregister2.webp"
-                    alt="">
+                <div id="imgregpop">
+                    <img src="assets/design/designregister1.webp" alt="">
+                    <img src="assets/design/designregister2.webp" alt="">
+                </div>
 
                 <form action="connexion">
                     <label for="username"></label>
@@ -84,7 +81,7 @@
                     <label for="password"></label>
                     <input type="password" placeholder="Mot de passe">
 
-                    <button type="submit">Inscription </button>
+                    <button class="questbutton" type="submit">Inscription </button>
                 </form>
             </div>
         </div>
@@ -93,6 +90,20 @@
     <!-- **********************************************
                     MAIN*************************** ********* -->
     <main>
+        <!-- menu** -->
+        <div id="myburger"></div>
+        <nav>
+            <div id="sidenav">
+                <ul id="ulscript">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="nft.html">NFT ?</a></li>
+                    <li><a href="search.html">Recherche</a></li>
+                    <li><a href="comunity.html">Communauté</a></li>
+                    <li><a href="index.html#contactus">Contactez-nous</a></li>
+                </ul>
+            </div>
+        </nav>
+
 
         <section id="container">
             <div class="maincontain welcometext">
@@ -184,9 +195,7 @@
 
                 <!--link footer** -->
                 <ul>
-                    <li>
-                        <a href="#">Sitemap</a>
-                    </li>
+                    <li><a href="aboutus.html">A propos</a></li>
                     <li>
                         <a href="contactpro.html">Partenariat(s)</a>
                     </li>
