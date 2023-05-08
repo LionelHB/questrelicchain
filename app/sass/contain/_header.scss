@@ -5,13 +5,10 @@ header {
 
     background: $gradientbgcontain;
     display: flex;
-    justify-content: space-around;
     height: 100px;
-
     flex-direction: column;
     flex-wrap: wrap;
     align-content: space-between;
-    justify-content: center;
     align-items: flex-end;
 
     a {

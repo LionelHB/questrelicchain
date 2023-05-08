@@ -26,12 +26,68 @@
                 </span></h1>
         </a>
 
+
+        <div id="burger"> </div>
+
+        <!-- Login** -->
         <div id="loginbutton">
-            <button class="questbutton">connexion</button>
-            <button class="questbutton">s'inscrire</button>
+            <button id="btnconnexion" class="questbutton">connexion</button>
+            <button id="registerbtn" class="questbutton">s'inscrire</button>
         </div>
 
-        <div id="burger"></div>
+
+        <!-- PopUp Login** -->
+        <div id="popuplogin">
+            <div class="totalpopup ">
+                <p>Connectez vous !</p>
+
+                <img src="assets/design/designlogin.webp" alt="">
+
+                <form action="connexion">
+                    <label for="username"></label>
+                    <input type="text" placeholder="Identifiant">
+
+                    <label for="email"></label>
+                    <input type="email" placeholder="E-mail">
+
+                    <label for="password"></label>
+                    <input type="password" placeholder="Mot de passe">
+
+                    <button type="submit">Connexion</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- PopUp inscription** -->
+        <div id="popupregister">
+            <div class="totalpopup">
+
+                <p></p>
+                <p>Rejoignez nous !</p>
+
+                <img src="assets/design/designregister1.webp" alt=""> <img src="assets/design/designregister2.webp"
+                    alt="">
+
+                <form action="connexion">
+                    <label for="username"></label>
+                    <input type="text" placeholder="Nom">
+
+                    <label for="username"></label>
+                    <input type="text" placeholder="Prénom">
+
+                    <label for="username"></label>
+                    <input type="text" placeholder="Identifiant">
+
+                    <label for="email"></label>
+                    <input type="email" placeholder="E-mail">
+
+                    <label for="password"></label>
+                    <input type="password" placeholder="Mot de passe">
+
+                    <button type="submit">Inscription </button>
+                </form>
+            </div>
+        </div>
     </header>
 
     <!-- **********************************************
@@ -47,20 +103,25 @@
                     Que vous soyez un collectionneur passionné ou simplement à la recherche d'un souvenir emblématique
                     de vos jeux préférés, QuestRelicChain est la destination idéale pour vous.</p>
 
-                <p>Nous vous proposons une sélection de reliques issues des plus grands univers de jeu de rôle. Des potions de soin aux armes légendaires, en
+                <p>Nous vous proposons une sélection de reliques issues des plus grands univers de jeu de rôle. Des
+                    potions de soin aux armes légendaires, en
                     passant par les cristaux magiques ou les grimoires, chaque objet est minutieusement choisi pour son
-                    charme, son esthétique et la nostalgie qu'il provoque. Avec QuestRelicChain, vous pouvez être sûr de posséder des
+                    charme, son esthétique et la nostalgie qu'il provoque. Avec QuestRelicChain, vous pouvez être sûr de
+                    posséder des
                     pièces uniques et précieuses, qui témoignent de l'histoire et de la richesse de cet univers
                     fantastique.</p>
 
                 <p> Notre plateforme est entièrement basée sur la technologie blockchain, garantissant la sécurité, la
-                    transparence et la traçabilité de chaque transaction effectuée. Vous pouvez donc les exposer en toute
+                    transparence et la traçabilité de chaque transaction effectuée. Vous pouvez donc les exposer en
+                    toute
                     confiance, sachant que chaque NFT est unique, vérifiable et stocké de manière permanente sur la
                     blockchain.</p>
 
-                <p> Notre équipe est passionnée par les jeux de rôle et les grands oubliés que sont les "items", et nous sommes
+                <p> Notre équipe est passionnée par les jeux de rôle et les grands oubliés que sont les "items", et nous
+                    sommes
                     fiers de partager cette passion avec notre communauté grandissante d'amateurs et de collectionneurs.
-                    Nous vous invitons à explorer les galeries en ligne qui peublent notre sanctuaire et à découvrir les trésors que nous avons en
+                    Nous vous invitons à explorer les galeries en ligne qui peublent notre sanctuaire et à découvrir les
+                    trésors que nous avons en
                     réserve pour vous.</p>
 
                 <p> Rejoignez-nous dès maintenant sur QuestRelicChain, la plateforme incontournable pour les
@@ -106,7 +167,6 @@
                     FOOTER*************************** ********* -->
     <footer>
 
-        <div id="overlay"></div>
         <div class="containerfooter">
             <div id="footercontent">
                 <p>Derniers NFTs ajoutés :</p>
@@ -115,10 +175,12 @@
 
             <!--copyright** -->
             <div class="copyright">
-                <p>© Copyright 2023 / Tous droits réservés /
-                    <a href="#"><span>MiniCute</span> </a>
-                </p>
-
+                <div id="footerleft">
+                    <p id="charactercopyright">©</p>
+                    <p>Copyright 2023 / Tous droits réservés /
+                        <a href="#"><span>MiniCute</span> </a>
+                    </p>
+                </div>
 
                 <!--link footer** -->
                 <ul>
