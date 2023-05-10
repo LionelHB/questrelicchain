@@ -13,14 +13,22 @@ myBurger.addEventListener("click", function () {
   }
 });
 
+myBurger.addEventListener("click", function () {
+  if (myMenuBurger.classList.contains("ul-visible")) {
+    myMenuBurger.classList.remove("ul-visible");
+  } else {
+    myMenuBurger.classList.add("ul-visible");
+  }
+});
+
 function openMenu() {
-  myMenuBurger.style.display = "flex";
+  // myMenuBurger.style.display = "flex";
   myBurger.style.rotate = "90deg";
   isMenuOpen = true;
 }
 
 function closeMenu() {
-  myMenuBurger.style.display = "none";
+  // myMenuBurger.style.display = "none";
   myBurger.style.rotate = "0deg";
   isMenuOpen = false;
 }
