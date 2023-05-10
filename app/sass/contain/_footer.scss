@@ -1,6 +1,7 @@
 // FOOTER
 // *******************************
 footer {
+    overflow: hidden;
     position: relative;
     border-top: 2px solid $gregecolor;
 
@@ -35,13 +36,12 @@ footer {
                 }
 
             }
-        }
+        } 
 
         .copyright {
             display: flex;
             flex-direction: column-reverse;
             align-items: flex-end;
-
 
             #footerleft {
                 display: flex;
