@@ -1,0 +1,43 @@
+.procontainer {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+
+        li {
+            margin: 0 auto;
+
+            a {
+
+                text-decoration: none;
+
+                .imglogopro {
+                    height: 100px;
+                    width: 100px;
+                }
+
+                p {
+
+                    text-align: center !important;
+                    color: $darkbluetext;
+
+                    &::first-letter {
+                        padding-left: 0 !important;
+                    }
+                }
+
+                &:hover {
+                    text-decoration: underline;
+                    text-shadow: 1px 1px 0px;
+                }
+            }
+        }
+    }
+}
+
+.olpolicy{
+    list-style-type: disc;
+    text-align: start;
+}
