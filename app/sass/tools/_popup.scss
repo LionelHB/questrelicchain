@@ -2,6 +2,7 @@
 
 #popuplogin,
 #popupregister {
+    left: 0;
     top: 8.5rem;
     display: flex;
     justify-content: center;
@@ -53,11 +54,11 @@
         border-radius: 10px;
         width: 18.5rem;
         height: 25rem;
-        background-color: $lighttext;
+        background: $gradientbgmain;
         border: solid 2px $darkbluetext;
 
         p {
-            color: $darkbluetext;
+            color: $gregecolor;
             user-select: none;
             margin: 0;
             font-weight: bold;

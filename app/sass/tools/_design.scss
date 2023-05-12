@@ -37,7 +37,25 @@
     }
 }
 
-.olpolicy{
+.olpolicy {
     list-style-type: disc;
     text-align: start;
+}
+
+
+#sidenav {
+    display: flex;
+    .design-visible {
+        max-height: 89px !important;
+    }
+    #designimgscript {
+        max-height: 0;
+        background-image: url(../assets/design/designtree.webp);
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+        overflow: hidden;
+        transition: max-height 1s ease-in-out;
+
+    }
 }

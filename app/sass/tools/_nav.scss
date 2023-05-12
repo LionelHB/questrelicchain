@@ -14,9 +14,8 @@
         }
 
         nav {
-            margin: 1.5rem auto; 
-            width: max-content;
-
+            display: flex;
+            justify-content: flex-end;
             //nav bar menu
             #sidenav {
                 .ul-visible {

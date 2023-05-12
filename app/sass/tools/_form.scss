@@ -1,97 +1,97 @@
       //contact form
       .containerform {
-        form {
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            padding-bottom: 3rem;
-        }
+          form {
+              display: flex;
+              align-items: center;
+              flex-direction: column;
+              padding-bottom: 3rem;
+          }
 
-        .textform {
+          .textform {
 
-            input {
-                width: 4rem;
-                color: $lighttext;
-                margin: 0.5rem;
-                border-radius: 10px;
-                padding: 0.5rem 2rem;
-                background: $gradientbgcontain;
-
-
-                &::placeholder {
-                    font-family: $dalelands;
-                    color: $darkbluetext;
-                }
-
-                &:focus {
-                    background: none;
-                    background-color: $lighttext;
-                    color: $darkbluetext;
-                    font-weight: bold;
-
-                    &::placeholder {
-                        color: $darkbluetext;
-                        font-weight: bold;
-                    }
-                }
+              input {
+                  width: 4rem;
+                  color: $lighttext;
+                  margin: 0.5rem;
+                  border-radius: 10px;
+                  padding: 0.5rem 2rem;
+                  background: $gradientbgcontain;
 
 
-                &:last-child {
-                    margin-bottom: 0;
+                  &::placeholder {
+                      font-family: $dalelands;
+                      color: $darkbluetext;
+                  }
 
-                }
-            }
+                  &:focus {
+                      background: none;
+                      background-color: $lighttext;
+                      color: $darkbluetext;
+                      font-weight: bold;
 
-            display: flex;
-            flex-direction: column;
-        }
+                      &::placeholder {
+                          color: $darkbluetext;
+                          font-weight: bold;
+                      }
+                  }
 
-        textarea {
-            width: 10rem;
-            resize: none;
-            color: $darkbluetext;
-            margin: 1rem 0;
-            padding: 1rem;
-            margin-right: 1rem;
-            border-radius: 10px;
-            background: $gradientbgcontain;
 
-            &:focus {
-                background: none;
-                background-color: $lighttext;
-                color: $darkbluetext;
-                font-weight: bold;
+                  &:last-child {
+                      margin-bottom: 0;
 
-                &::placeholder {
-                    color: $darkbluetext;
-                    font-weight: bold;
-                }
-            }
+                  }
+              }
 
-            &::placeholder {
+              display: flex;
+              flex-direction: column;
+          }
 
-                font-family: $dalelands;
-                color: $darkbluetext;
+          textarea {
+              width: 10rem;
+              resize: none;
+              color: $darkbluetext;
+              margin: 1rem 0;
+              padding: 1rem;
+              margin-right: 1rem;
+              border-radius: 10px;
+              background: $gradientbgcontain;
 
-            }
-        }
+              &:focus {
+                  background: none;
+                  background-color: $lighttext;
+                  color: $darkbluetext;
+                  font-weight: bold;
 
-        #linkcontactpro {
-            text-align: center;
+                  &::placeholder {
+                      color: $darkbluetext;
+                      font-weight: bold;
+                  }
+              }
 
-            p {
-                font-size: 0.8rem;
-                margin: 0;
-                padding: 0;
+              &::placeholder {
 
-                a {
-                    border-bottom: solid 1px $darkbluetext;
-                    color: $darkbluetext;
+                  font-family: $dalelands;
+                  color: $darkbluetext;
 
-                    &:hover {
-                        text-shadow: 1px 1px 0px;
-                    }
-                }
-            }
-        }
-    }
+              }
+          }
+
+          #linkcontactpro {
+              text-align: center;
+
+              p {
+                  font-size: 0.8rem;
+                  margin: 0;
+                  padding: 0;
+
+                  a {
+                      border-bottom: solid 1px $darkbluetext;
+                      color: $darkbluetext;
+
+                      &:hover {
+                          text-shadow: 1px 1px 0px;
+                      }
+                  }
+              }
+          }
+      }

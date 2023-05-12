@@ -94,6 +94,7 @@
         <div id="myburger"></div>
         <nav>
             <div id="sidenav">
+
                 <ul id="ulscript">
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="nft.html">NFT ?</a></li>
@@ -101,73 +102,122 @@
                     <li><a href="comunity.html">Communauté</a></li>
                     <li><a href="index.html#contactus">Contactez-nous</a></li>
                 </ul>
+                <div id="designimgscript"></div>
             </div>
         </nav>
 
 
+        <!--first section** -->
         <section id="container">
-            <div class="maincontain welcometext">
-                <h2>Bienvenue sur QuestRelic Chain</h2>
+            <div class="maincontain formsearch">
 
-                <p>La galerie en ligne dédiée aux objets cultes des jeux de rôle ! Notre plateforme vous permet
-                    d'exposer des objets virtuels uniques et authentifiés sous la forme de NFT (Non-Fungible Tokens).
-                    Que vous soyez un collectionneur passionné ou simplement à la recherche d'un souvenir emblématique
-                    de vos jeux préférés, QuestRelicChain est la destination idéale pour vous.</p>
+                <!-- contain** -->
+                <h2>Recherche</h2>
 
-                <p>Nous vous proposons une sélection de reliques issues des plus grands univers de jeu de rôle. Des
-                    potions de soin aux armes légendaires, en
-                    passant par les cristaux magiques ou les grimoires, chaque objet est minutieusement choisi pour son
-                    charme, son esthétique et la nostalgie qu'il provoque. Avec QuestRelicChain, vous pouvez être sûr de
-                    posséder des
-                    pièces uniques et précieuses, qui témoignent de l'histoire et de la richesse de cet univers
-                    fantastique.</p>
+                <p>Vous cherchez un NFT particulier ? Une galerie ? Un posteur précis ? <br>
+                Essayer de faire une recherche ici !</p>
 
-                <p> Notre plateforme est entièrement basée sur la technologie blockchain, garantissant la sécurité, la
-                    transparence et la traçabilité de chaque transaction effectuée. Vous pouvez donc les exposer en
-                    toute
-                    confiance, sachant que chaque NFT est unique, vérifiable et stocké de manière permanente sur la
-                    blockchain.</p>
+                <div id="nftsearch" class="containerform">
+                    <form action="search">
+                        <div class="textform">
+                            <select name="search">
+                                <option value="nftsearch">NFT</option>
+                                <option value="galerysearch">Galerie</option>
+                            </select>
 
-                <p> Notre équipe est passionnée par les jeux de rôle et les grands oubliés que sont les "items", et nous
-                    sommes
-                    fiers de partager cette passion avec notre communauté grandissante d'amateurs et de collectionneurs.
-                    Nous vous invitons à explorer les galeries en ligne qui peublent notre sanctuaire et à découvrir les
-                    trésors que nous avons en
-                    réserve pour vous.</p>
+                            <label for=""></label>
+                            <input type="text" placeholder="Mot-clé">
 
-                <p> Rejoignez-nous dès maintenant sur QuestRelicChain, la plateforme incontournable pour les
-                    collectionneurs d'objets de jeux de rôle en NFT.</p>
-                <a href="index.html">
-                    <p>L'équipe QuestRelic Chain</p>
-                </a>
+                            <button class="questbutton" type="submit">Chercher</button>
+
+                        </div>
+                    </form>
+                </div>
             </div>
+
         </section>
 
-        <!--contact form** -->
 
+        <!--second section** -->
         <section id="container">
-            <div id="contactus" class="containerform">
-                <form action="">
-                    <div class="textform">
-                        <label for="name"></label>
-                        <input type="text" placeholder="Nom">
+            <div class="maincontain maincard">
+                <h2>Exemples de nfts QuestRelic Chain</h2>
 
-                        <label for="name"></label>
-                        <input type="text" placeholder="Prénom">
-
-                        <label for="email"></label>
-                        <input type="email" placeholder="E-mail">
+                <!-- contain** -->
+                <div id="cardcontenttop">
+                    <!--**first card**-->
+                    <div class="card">
+                        <img src="assets/nft/consumable/potion/potion04.webp" alt="Image">
+                        <div class="cardinfo">
+                            <h3>Potion de soin</h3>
+                            <p>Dans les RPG, les potions de soin sont des éléments clés qui peuvent guérir instantanément les blessures les plus graves d'un personnage.</p>
+                        </div>
                     </div>
 
-                    <textarea name="message" cols="30" rows="5" placeholder="Votre message"></textarea>
+                    <!--**seconde card**-->
+                    <div class="card">
+                        <img src="assets/nft/consumable/stone/stone08.webp" alt="Image">
+                        <div class="cardinfo">
+                            <h3>Pierre de Nécromancie</h3>
+                            <p>Une pierre de nécromancie est un objet sombre et puissant, utilisé dans la magie noire pour invoquer les morts. Ces pierres sont des cristaux ornés d'inscriptions maléfique.</p>
+                        </div>
+                    </div>
 
-                    <button class="questbutton" type="submit">Envoyer</button>
-                </form>
+                    <!--**third card**-->
+                    <div class="card">
+                        <img src="assets/nft/weapon/range/bow/bow05.webp" alt="Image">
+                        <div class="cardinfo">
+                            <h3>l'arc</h3>
+                            <p>Les archers doivent être agiles et précis, car la précision de leurs tirs dépend de leur habileté. Les arcs peuvent également être utilisés pour la chasse ou pour d'autres activités.</p>
+                        </div>
+                    </div>
 
-                <div id="linkcontactpro">
-                    <p>Pour un contact professionnel, c'est par
-                        <a href="contactpro.html#formpro">ICI !</a>
-                    </p>
+                    <!--**fourth card**-->
+                    <div class="card">
+                        <img src="assets/nft/equipment/glove/glove05.webp" alt="Image">
+                        <div class="cardinfo">
+                            <h3>Gants</h3>
+                            <p>Les gants peuvent rendre invincibles sur le champ de bataille. Qui cherche à devenir un véritable héro doit chercher les gants les plus puissants, les plus rares et les plus légendaires.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="cardcontenttbottom">
+                    <!--**fifth card**-->
+                    <div class="card">
+                        <img src="assets/nft/furniture/chest/chest05.webp" alt="Image">
+                        <div class="cardinfo">
+                            <h3>Coffre</h3>
+                            <p>Ils peuvent contenir des armes légendaires, des objets magiques ou des potions rares. Il faut être prêt à chercher, à trouver et à ouvrir tous les coffres qui se trouvent sur sa route.</p>
+                        </div>
+                    </div>
+
+                    <!--**sixth card**-->
+                    <div class="card">
+                        <img src="assets/nft/equipment/wizardscloak/wizardscloak06.webp" alt="Image">
+                        <div class="cardinfo">
+                            <h3>Tenue de magicien</h3>
+                            <p>La maîtrise de la magie et la puissance mystique. Elles confèrent des pouvoirs incroyables et une aura de mystère, elle rend capable de manipuler les forces les plus élémentaires de l'univers.</p>
+                        </div>
+                    </div>
+
+                    <!--**seventh card**-->
+                    <div class="card">
+                        <img src="assets/nft/furniture/map/map5.webp" alt="Image">
+                        <div class="cardinfo">
+                            <h3>Carte</h3>
+                            <p> La connaissance, l'exploration et l'aventure. Elles sont un outil indispensable. Aventurier ou chasseur de trésors qui cherche à découvrir les secrets cachés du monde.</p>
+                        </div>
+                    </div>
+
+                    <!--**eighth card**-->
+                    <div class="card">
+                        <img src="assets/nft/weapon/melee/sword/sword06.webp" alt="Image">
+                        <div class="cardinfo">
+                            <h3>Épée</h3>
+                            <p> S'il devait y avoir un classique, ce serait elle. L'épée est le symbole ultime de la guerre et de la victoire.Claymore, katana, gladius sont les armes les plus courantes dans les RPGs.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
