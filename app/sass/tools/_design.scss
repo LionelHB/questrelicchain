@@ -46,9 +46,11 @@
 #sidenav {
     display: flex;
     flex-direction: row-reverse;
+
     .design-visible {
         max-height: 200px !important;
     }
+
     #designimgscript {
         max-height: 0;
         background-image: url(../assets/design/knight01.webp);
@@ -59,4 +61,95 @@
         transition: max-height 1s ease-in-out;
 
     }
+}
+
+
+#aboutusimg01 {
+    background-image: url(../assets/design/design20.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 179.6px;
+    height: 200px;
+    margin: -70px auto 0;
+}
+
+#aboutusimg02 {
+    background-image: url(../assets/design/design03.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 225.6px;
+    height: 200px;
+    margin: -70px auto 0;
+}
+
+#aboutusimg03 {
+    background-image: url(../assets/design/design07.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin: -70px auto 0;
+}
+
+#aboutusimg04 {
+    background-image: url(../assets/design/design02.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 217.3px;
+    height: 200px;
+    margin: -70px auto 0;
+}
+
+#aboutusimg05 {
+    background-image: url(../assets/design/design04.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 182px;
+    height: 200px;
+    margin: -70px auto 0;
+}
+
+#aboutusimg06 {
+    background-image: url(../assets/design/design05.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 166.4px;
+    height: 200px;
+    margin: -70px auto 0;
+}
+
+#aboutusimg07 {
+    background-image: url(../assets/design/design08.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 223.2px;
+    height: 200px;
+    margin: -70px auto 0;
+}
+
+#aboutusimg08 {
+    background-image: url(../assets/design/design10.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 207.4px;
+    height: 200px;
+    margin: -70px auto 0;
+}
+
+#aboutusimg09 {
+    background-image: url(../assets/design/design19.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 188px;
+    height: 200px;
+    margin: -70px auto 0;
+}
+
+#aboutusimg10 {
+    background-image: url(../assets/design/design17.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 185.6px;
+    height: 200px;
+    margin: -70px auto 0;
 }
