@@ -45,15 +45,16 @@
 
 #sidenav {
     display: flex;
+    flex-direction: row-reverse;
     .design-visible {
-        max-height: 89px !important;
+        max-height: 200px !important;
     }
     #designimgscript {
         max-height: 0;
-        background-image: url(../assets/design/designtree.webp);
+        background-image: url(../assets/design/knight01.webp);
         background-size: cover;
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
         overflow: hidden;
         transition: max-height 1s ease-in-out;
 

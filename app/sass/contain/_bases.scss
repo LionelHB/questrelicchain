@@ -1,8 +1,33 @@
-
 body {
-margin: 0;
+    margin: 0;
     padding: 0;
     width: 100%;
-    overflow-x:  hidden;
+    overflow-x: hidden;
 
+}
+
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+a,
+ul,
+ol,
+li,
+table,
+td,
+th,
+form,
+input,
+textarea,
+button {
+    box-sizing: content-box;
 }

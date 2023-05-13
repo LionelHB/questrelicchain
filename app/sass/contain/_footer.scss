@@ -8,35 +8,40 @@ footer {
     .containerfooter {
         background-color: black;
 
+        #questrelicchaincarousel {
+            width: 150px;
+            height: 150px;
+            margin: 0 auto;
+            padding-top: 2rem;
+
+            .buttocarousel {
+                padding-top: 100%;
+            }
+
+            .carousel-item {
+
+                img {
+                    width: 150px;
+                    height: 150px;
+                }
+            }
+        }
+
         #footercontent {
+            text-align: center;
             display: flex;
             flex-direction: column;
             width: 100%;
 
 
+
             p {
+                margin-bottom: 0;
                 font-family: $dalelands;
-                padding: 1rem 0 0 1rem;
+                padding: 1rem 0 0;
                 color: $gregecolor;
             }
-
-            #lastnfts {
-                margin: 1rem 0 1rem 3rem;
-                width: 70px;
-                height: 70px;
-                background-image: url(../assets/nft/equipment/armor/armor05.webp);
-                background-repeat: no-repeat;
-                background-size: cover;
-                cursor: pointer;
-                transition: all 0.5s ease-in-out;
-
-                &:hover {
-                    scale: 4;
-                    transform: translateX(18px) translateY(18px);
-                }
-
-            }
-        } 
+        }
 
         .copyright {
             display: flex;
@@ -73,6 +78,7 @@ footer {
         }
 
         #sitelink {
+
             ul {
                 font-family: $dalelands;
                 display: flex;
@@ -83,11 +89,13 @@ footer {
 
 
                 li {
+
                     list-style: none;
                     text-align: end;
                     padding-top: 1rem;
 
                     a {
+
                         text-decoration: none;
                         color: $gregecolor;
 

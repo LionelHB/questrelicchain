@@ -74,31 +74,31 @@ document.addEventListener("click", function (event) {
 
 //FOOTER LAST NFT ***********************
 // **************************************
-let scaleLastNft = document.getElementById("lastnfts");
+// let scaleLastNft = document.getElementById("lastnfts");
 
-document.addEventListener("click", function (event) {
-  if (event.target !== scaleLastNft && scaleLastNft.style.scale == 6) {
-    scaleLastNft.style.transform = "translateX(0px) translateY(0px)";
-    scaleLastNft.style.scale = 1;
-  }
-});
+// document.addEventListener("click", function (event) {
+//   if (event.target !== scaleLastNft && scaleLastNft.style.scale == 6) {
+//     scaleLastNft.style.transform = "translateX(0px) translateY(0px)";
+//     scaleLastNft.style.scale = 1;
+//   }
+// });
 
-if (window.innerWidth > "768px") {
-  scaleLastNft.addEventListener("click", function () {
-    if (scaleLastNft.style.scale == 6) {
-      scaleLastNft.style.position = "fixed";
-      scaleLastNft.style.bottom = "0";
-      scaleLastNft.style.transform = "translateX(80%) translateY(-50%)";
-      scaleLastNft.style.scale = 10;
-      document.getElementById('overlay').style.display = 'block';
+// if (window.innerWidth > "768px") {
+//   scaleLastNft.addEventListener("click", function () {
+//     if (scaleLastNft.style.scale == 6) {
+//       scaleLastNft.style.position = "fixed";
+//       scaleLastNft.style.bottom = "0";
+//       scaleLastNft.style.transform = "translateX(80%) translateY(-50%)";
+//       scaleLastNft.style.scale = 10;
+//       document.getElementById('overlay').style.display = 'block';
 
-    } else {
-      scaleLastNft.style.position = "static";
-      scaleLastNft.style.transform = "translateX(30px) translateY(-30px)";
-      scaleLastNft.style.scale = 6;
-    }
-  });
-}
+//     } else {
+//       scaleLastNft.style.position = "static";
+//       scaleLastNft.style.transform = "translateX(30px) translateY(-30px)";
+//       scaleLastNft.style.scale = 6;
+//     }
+//   });
+// }
 
 
 
