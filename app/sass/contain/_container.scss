@@ -36,7 +36,7 @@ main {
             }
 
             p {
-                font-size: 1.1rem;
+                font-size: 1rem;
                 font-family: $breathe;
                 color: $darkbluetext;
 
@@ -51,7 +51,7 @@ main {
                 text-decoration: none;
 
                 p {
-                    
+
                     text-align: end;
 
                     &::first-letter {
@@ -64,6 +64,34 @@ main {
                     }
                 }
             }
+        }
+    }
+}
+
+#questrelicaccordion {
+    margin-top: 2rem;
+    width: max-content;
+    background: $gradientbgmain;
+
+    #questrelicaccordionitem {
+        background: $gradientbgmain;
+        #questrelicaccordionbody {
+            width: 145px;
+            background: $gradientbgmain;
+            color: $gregecolor;
+            text-align: start;
+            h3{
+                text-align: center;
+              font-weight: bold;
+              font-size: 1.7rem;
+                padding: 1rem 0;
+            }
+        }
+
+        #questrelicaccordionbutton {
+            background: $gradientbgmain;
+            border-radius: 50px;
+            color: $gregecolor;
         }
     }
 }
