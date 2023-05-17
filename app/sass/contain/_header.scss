@@ -18,12 +18,20 @@ header {
         text-decoration: none;
 
         h1 {
+            display: flex;
+            flex-direction: row;
             margin-top: 1rem;
             margin-right: 0.5rem;
             width: max-content;
             font-size: 1.8rem;
             font-family: $darkshadow;
             color: rgb(0, 0, 0);
+
+            span {
+                display: block;
+        
+            }
+
         }
     }
 

@@ -68,6 +68,8 @@ main {
     }
 }
 
+
+//*******ACCORDEON
 #questrelicaccordion {
     margin-top: 2rem;
     width: max-content;
@@ -75,16 +77,33 @@ main {
 
     #questrelicaccordionitem {
         background: $gradientbgmain;
+
         #questrelicaccordionbody {
             width: 145px;
             background: $gradientbgmain;
             color: $gregecolor;
             text-align: start;
-            h3{
+
+            h3 {
                 text-align: center;
-              font-weight: bold;
-              font-size: 1.7rem;
+                font-weight: bold;
+                font-size: 1.7rem;
                 padding: 1rem 0;
+            }
+
+            #uparrow {
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 1rem;
+                margin-left: auto;
+                width: 20px;
+                height: 20px;
+                border-radius: 50px;
+                background-color: $lighttext;
+                color: $darkbluetext ;
+                font-weight: bold;
             }
         }
 
