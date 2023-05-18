@@ -118,3 +118,290 @@
         }
     }
 }
+
+@media screen and (min-width: 769px) {
+
+    // HEADER***********
+    #myHeader {
+        height: 150px;
+
+        #logoSite {
+            img {
+                height: 150px;
+                width: 150px;
+            }
+        }
+
+        #animateTitle {
+            margin: 0 1rem 0 0;
+            font-size: 5rem;
+        }
+
+        #popuplogin {
+            right: 50%;
+            margin-left: 4.5rem;
+        }
+
+        #popupregister {
+            left: 50%;
+            margin-right: 4.5rem;
+            margin-left: 0;
+        }
+    }
+
+    // **Index form**
+    #contactus {
+        form {
+            .areabutton {
+                margin-left: 2rem;
+            }
+        }
+    }
+
+    // **Accordeon**
+    .maincontain #questrelicaccordion #questrelicaccordionitem {
+        width: 500px;
+
+        #questrelicaccordionbody {
+            width: 450px;
+        }
+    }
+}
+
+@media screen and (min-width: 1025px) {
+
+    // HEADER***********
+    #myHeader {
+        height: 150px;
+
+        #animateTitle {
+            margin: 0 5rem -1rem 5rem;
+            font-size: 6.5rem;
+            flex-direction: row;
+        }
+
+        #popuplogin {
+            right: 50%;
+            margin-right: 0;
+            margin-left: 12rem;
+        }
+
+        #popupregister {
+            left: 50%;
+            margin-right: 0;
+            margin-left: 0;
+        }
+    }
+
+    // MAIN***********
+    // **Nav**
+    main {
+        nav {
+            justify-content: space-around;
+
+            #sidenav {
+                #designimgscript {
+                    width: 300px;
+                    height: 300px;
+                }
+
+                .ul-visible {
+                    max-height: 300px;
+                }
+
+                .design-visible {
+                    max-height: 300px !important;
+                }
+
+                ul {
+                    li {
+                        a {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // **content**
+    main #container .maincontain h2 {
+        font-size: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+
+    p {
+        font-size: 1.5rem !important;
+    }
+
+    // **Index form**
+    #contactus {
+        #indexform {
+            width: 500px;
+            justify-content: normal;
+            margin: 0 auto;
+            width: max-content;
+
+            .textform {
+                width: 300px;
+
+                input {
+                    width: 200px;
+                }
+            }
+
+            .areabutton {
+                textarea {
+                    width: 300px;
+                }
+            }
+        }
+    }
+
+    #container .containerform #linkcontactpro p {
+        font-size: 1.5rem !important;
+
+        &::first-letter {
+            font-size: 1.5rem !important;
+        }
+    }
+
+    // **Accordeon**
+    .maincontain #questrelicaccordion #questrelicaccordionitem {
+        width: 600px;
+
+        h2 {
+            margin-bottom: 0 !important;
+        }
+
+        #questrelicaccordionbutton {
+            font-size: 1.5rem;
+        }
+
+        #questrelicaccordionbody {
+            width: 550px;
+        }
+    }
+
+    // **Design Image**
+    main {
+        #design01 {
+            width: 269.4px;
+            height: 300px;
+        }
+
+        #design02 {
+            width: 338.4px;
+            height: 300px;
+        }
+
+        #design03 {
+            width: 300px;
+            height: 300px;
+        }
+
+        #design04 {
+            width: 325.95px;
+            height: 300px;
+        }
+
+        #design05 {
+            width: 273px;
+            height: 300px;
+        }
+
+        #design06 {
+            width: 249.6px;
+            height: 300px;
+        }
+
+        #design07 {
+            width: 334.8px;
+            height: 300px;
+        }
+
+        #design08 {
+            width: 311.1px;
+            height: 300px;
+        }
+
+        #design09 {
+            width: 282px;
+            height: 300px;
+        }
+
+        #design10 {
+            width: 278.4px;
+            height: 300px;
+        }
+    }
+
+    // **Search Card**
+    #container .maincard {
+
+        #cardcontenttop,
+        #cardcontenttbottom {
+            .card {
+                width: 300px;
+                margin: 2rem;
+                height: auto;
+                img{
+                    width: 300px;
+                    height: 300px;
+                }
+
+                h3 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+    // FOOTER***********
+    // **Carrousel**
+    #myFooter {
+
+        #questrelicchaincarousel {
+            width: 300px;
+            height: 300px;
+            margin: 1rem 0 -9rem 1rem;
+            padding-top: 2rem;
+
+            .carousel-item {
+
+                img {
+                    width: 300px;
+                    height: 300px;
+                }
+            }
+        }
+
+        // **Text**
+        #footercontent {
+            font-size: 1.2rem;
+        }
+
+        .copyright {
+            align-items: normal;
+
+            #footerleft {
+                margin-left: 1rem;
+
+                p {
+                    font-size: 1.2rem;
+                }
+            }
+
+            #socialmedianav {
+                .socialmedialogo {
+                    height: 60px;
+                    width: 60px;
+                }
+            }
+
+            #sitelink {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}

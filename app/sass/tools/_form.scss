@@ -12,26 +12,28 @@
               .myinput {
                   font-size: 1rem;
                   width: 6.5rem;
-                  color: $darkbluetext;
+                  color: $gregecolor;
                   margin: 0.5rem;
                   border-radius: 10px;
                   padding: 0.5rem 2rem;
-                  background: $gradientbgcontain;
+                  background: $gradientbgmain;
 
 
                   &::placeholder {
                       font-family: $dalelands;
-                      color: $darkbluetext;
+                      color: $gregecolor;
+                      font-weight: bold;
+                      font-size: 1.2rem;
                   }
 
                   &:focus {
                       background: none;
                       background-color: $lighttext;
-                      color: $darkbluetext;
+                      color: $verydarkcolor;
                       font-weight: bold;
 
                       &::placeholder {
-                          color: $darkbluetext;
+                          color: $verydarkcolor;
                           font-weight: bold;
                       }
                   }
@@ -48,31 +50,33 @@
           }
 
           textarea {
-              width: 10rem;
+              width: 15rem;
               resize: none;
-              color: $darkbluetext;
+              color: $gregecolor;
               margin: 1rem 0;
               padding: 1rem;
               margin-right: 1rem;
               border-radius: 10px;
-              background: $gradientbgcontain;
+              background: $gradientbgmain;
 
               &:focus {
                   background: none;
                   background-color: $lighttext;
-                  color: $darkbluetext;
+                  color: $verydarkcolor;
                   font-weight: bold;
 
                   &::placeholder {
-                      color: $darkbluetext;
+                      color: $verydarkcolor;
                       font-weight: bold;
                   }
               }
 
               &::placeholder {
-
+             
                   font-family: $dalelands;
-                  color: $darkbluetext;
+                  color: $gregecolor;
+                  font-weight: bold;
+                  font-size: 1.2rem;
 
               }
           }
@@ -84,7 +88,7 @@
               p {
                   margin: 0;
                   font-size: 0.8rem !important;
-                 
+
 
                   &::first-letter {
                       font-size: 0.8rem !important;

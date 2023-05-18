@@ -1,11 +1,11 @@
 {
   "dependencies": {
+    "jekyll": "^3.0.0-beta1",
     "sass": "^1.62.1"
   },
   "name": "wallchain-nft",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "sass": "sass --watch app/sass/main.scss public/css/style.css --style compressed"
   },

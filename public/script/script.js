@@ -73,9 +73,9 @@ document.addEventListener("click", function (event) {
 
 
 //***********************
-// **************************************
+// Title Animation******************
 
-window.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', function () {
   var myTitle = document.getElementById('animateTitle');
   var text = myTitle.innerText;
   var content = '';
@@ -86,6 +86,36 @@ window.addEventListener('DOMContentLoaded', function() {
 
   myTitle.innerHTML = content;
 });
+
+
+
+//***********************
+// logo Animation******************
+
+const logoElement = document.getElementById("logoSite");
+let isLogoMoved = false; 
+function moveAndRotateLogo() {
+  if (!isLogoMoved) {
+    logoElement.style.top = "80px";
+    logoElement.style.left = "50px";
+    logoElement.style.transform = "rotateY(360deg)";
+    isLogoMoved = true;
+  } else {
+    logoElement.style.top = "0";
+    logoElement.style.left = "0";
+    logoElement.style.transform = "rotateY(0deg)";
+    isLogoMoved = false;
+  }
+  logoElement.classList.toggle("rotate-animation");
+}
+
+function startAnimation() {
+  moveAndRotateLogo();
+  setTimeout(moveAndRotateLogo, 3000);
+}
+
+setInterval(startAnimation, 45000);  
+setTimeout(startAnimation, 45000);
 
 
 
