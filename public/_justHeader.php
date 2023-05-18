@@ -1,4 +1,4 @@
-<header>
+<header id="myHeader">
         <div id="logoSite"><a href="index.php">
                 <img src="assets/logo/logoquestrelic.webp" alt=""><span>logo QuestRelic Chain</span>
             </a>

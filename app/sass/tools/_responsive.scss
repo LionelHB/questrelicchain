@@ -5,3 +5,116 @@
 // 1201px et plus —  écrans extra larges, TV
 
 
+@media screen and (min-width: 480px) {
+
+    // HEADER***********
+    #myHeader {
+        height: 120px;
+
+        #logoSite {
+            img {
+                height: 120px;
+                width: 120px;
+            }
+        }
+
+        #animateTitle {
+            font-size: 3rem;
+        }
+
+        #loginbutton {
+            width: max-content;
+        }
+
+        #popuplogin {
+            right: 50%;
+            margin-left: 5rem;
+        }
+
+        #popupregister {
+            right: 50%;
+            margin-left: 5rem;
+        }
+    }
+
+    // MAIN***********
+    // **Nav**
+    main nav {
+        justify-content: space-around;
+    }
+
+    // **Index form**
+    #contactus {
+        form {
+            flex-direction: row;
+            justify-content: center;
+
+            .areabutton {
+                display: flex;
+                flex-direction: column;
+
+                textarea {
+                    margin: 3.5rem 0 1rem;
+                }
+            }
+        }
+    }
+
+    // **ContactPro Procontainer**
+    main {
+        #container {
+            .procontainer {
+                ul {
+                    flex-direction: row;
+                }
+
+                &:first-child {
+                    padding: 5% 0;
+                }
+            }
+
+            // **ContactProForm
+            .containerform {
+                form {
+                    flex-direction: row;
+                    justify-content: center;
+
+                    .areabutton {
+                        display: flex;
+                        flex-direction: column;
+
+                        textarea {
+                            margin: 3.5rem 0 1rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // **Accordeon**
+    .maincontain #questrelicaccordion #questrelicaccordionitem {
+        width: 320px;
+
+        #questrelicaccordionbody {
+            width: 280px;
+        }
+    }
+
+    // FOOTER***********
+    #myFooter {
+        #footercontent {
+            text-align: left;
+            display: block;
+            margin: 0 2rem;
+        }
+
+        #footerleft {
+            margin: 1rem 0;
+        }
+
+        #questrelicchaincarousel {
+            margin: 0 2rem;
+        }
+    }
+}
