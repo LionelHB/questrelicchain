@@ -166,6 +166,26 @@
             width: 450px;
         }
     }
+
+    // **Search Card**
+    #container .maincard {
+
+        #cardcontenttop,
+        #cardcontenttbottom {
+            .card {
+
+                margin: 2rem;
+                height: auto;
+
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
+                }
+
+
+            }
+        }
+    }
 }
 
 @media screen and (min-width: 1025px) {
@@ -345,9 +365,10 @@
                 width: 300px;
                 margin: 2rem;
                 height: auto;
-                img{
-                    width: 300px;
-                    height: 300px;
+
+                img {
+                    max-width: 100%;
+                    max-height: 100%;
                 }
 
                 h3 {
@@ -355,6 +376,12 @@
                 }
             }
         }
+    }
+
+    // **ContactPro Procontainer**
+    main #container .procontainer ul li a .imglogopro {
+        height: 150px;
+        width: 150px;
     }
 
     // FOOTER***********
@@ -365,10 +392,9 @@
             width: 300px;
             height: 300px;
             margin: 1rem 0 -9rem 1rem;
-            padding-top: 2rem;
+            padding: 0.5rem 0;
 
             .carousel-item {
-
                 img {
                     width: 300px;
                     height: 300px;
@@ -401,6 +427,76 @@
 
             #sitelink {
                 font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1201px) {
+
+    // MAIN***********
+    // **Search Card**
+    main #container .maincard {
+        padding: 0 !important;
+
+        #cardcontenttop,
+        #cardcontenttbottom {
+
+            flex-wrap: nowrap;
+
+            .card {
+                width: 250px;
+                margin: 2rem 1rem;
+                height: auto;
+
+                img {
+
+                    max-width: 100%;
+                    max-height: 100%;
+
+                }
+
+                h3 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
+   #myHeader {
+        #popuplogin,
+        #popupregister {
+            width: 25rem;
+            height: 35rem;
+           
+
+            .logpop {
+                img {
+                    width: 150px;
+                }
+            }
+
+            .regipop {
+                img {
+                    height: 150px;
+                }
+            }
+
+            .totalpopup {
+                width: 24rem;
+                height: 34rem;
+
+                input {
+                    height: 35px;
+                    font-size: 1.5rem;
+                    &::placeholder{
+                        font-size: 1.5rem;
+                    }
+                }
+
+                p {
+                    font-size: 3rem !important;
+                }
             }
         }
     }

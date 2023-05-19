@@ -2,7 +2,6 @@
 
 #popuplogin,
 #popupregister {
-    left: 0;
     top: 8.5rem;
     display: flex;
     justify-content: center;
@@ -80,7 +79,7 @@
 
             input {
                 height: 20px;
-                color: $lighttext;
+                color: $gregecolor;
                 border: none;
                 background: $gradientbgmain;
                 padding: 0.1rem 1rem;
@@ -94,7 +93,7 @@
                 &::placeholder {
                     margin: 0 auto;
                     padding: 0.1rem 1rem;
-                    color: $lighttext;
+                    color: $gregecolor;
                     font-family: $breathe;
                     font-size: 1rem;
 
