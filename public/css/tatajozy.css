@@ -1,0 +1,16 @@
+body {
+  height: 100vh;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(180deg, rgb(15, 15, 15) 0%, rgba(120, 99, 73, 1) 54%, rgba(215, 215, 215, 1) 100%);
+}
+
+#mysection{
+  width: 80%;
+}
+#carouselExampleDark{
+  width: 70%;
+}
+.carousel-item img{
+  width: 50%;
+  height: 50%;
+}

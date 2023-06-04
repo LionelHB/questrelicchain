@@ -1,0 +1,252 @@
+/* *********AU BON DRAGON***********
+********************************* */
+
+
+@font-face {
+  font-family: "coffeecake";
+  src: url(../partenaires/dragon/fonts/CoffeCake.ttf)format("truetype");
+}
+
+@font-face {
+  font-family: "mainfont";
+  src: url(../partenaires/dragon/fonts/SalmaMedium.otf)format("truetype");
+}
+
+@font-face {
+  font-family: "pakadsom";
+  src: url(../partenaires/dragon/fonts/Pakadesoweno.ttf)format("truetype");
+}
+
+:root {
+  --coffeecake: 'coffeecake', sans-serif;
+}
+
+:root {
+  --mainfont: 'mainfont', sans-serif;
+}
+
+:root {
+  --paka: 'pakadsom', sans-serif;
+}
+
+
+#myall {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+header {
+  z-index: 3;
+  width: 100vw;
+  position: fixed;
+  background: linear-gradient(180deg, rgba(106, 249, 164, 1) 0%, rgba(76, 76, 76, 1) 100%);
+  opacity: 70%;
+  color: white;
+}
+
+
+/* *********text */
+.backgroundstyle {
+  border-radius: 15px;
+  z-index: 1;
+  position: relative;
+  background-color: rgb(226, 226, 226);
+  width: 50%;
+  top: 50%;
+}
+
+.rightP {
+  top: 10rem;
+  position: absolute;
+  right: 0;
+}
+
+.leftP3 {
+  top: 10rem;
+  position: absolute;
+}
+
+.centerPEnd {
+  top: 2rem;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  position: absolute;
+}
+
+h2 {
+  padding-top: 1rem;
+  font-family: var(--paka);
+  text-align: center;
+}
+
+h1 {
+
+  font-family: var(--coffeecake);
+  font-size: 7rem !important;
+  text-align: center;
+}
+
+p {
+  padding: 1.1rem;
+  font-family: var(--mainfont);
+}
+
+p::first-letter {
+  padding-left: 2rem;
+}
+
+.barAdresse {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(82, 156, 112);
+}
+
+.barName {
+  font-weight: bold;
+  color: rgb(82, 156, 112);
+}
+
+
+/* *********img design */
+.imgdesign {
+  box-shadow: 0 0 0 3px rgb(226, 226, 226);
+  background-color: rgb(226, 226, 226);
+}
+
+.imgdesign01 {
+  z-index: 2;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  transform: rotate(10deg);
+  right: 0;
+  background-image: url(../partenaires/dragon/assets/aubondragon01.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgdesign02 {
+  position: absolute;
+  z-index: 2;
+  width: 50%;
+  height: 50%;
+  transform: rotate(355deg);
+  top: 10rem;
+  left: 0;
+  background-image: url(../partenaires/dragon/assets/aubondragon03.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.imgdesign03 {
+  z-index: 2;
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  transform: rotate(4deg);
+  top: 10rem;
+  right: 0;
+  background-image: url(../partenaires/dragon/assets/aubondragon02.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.avis1 {
+  transform: rotate(-4deg);
+  bottom: 3rem;
+  height: 70%;
+  width: 70%;
+  left: 3rem;
+  position: absolute;
+  background-image: url(../partenaires/dragon/assets/dragonavis01.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.avis2 {
+  transform: rotate(4deg);
+  bottom: 3rem;
+  right: 3rem;
+  height: 40%;
+  width: 20%;
+  position: absolute;
+  background-image: url(../partenaires/dragon/assets/dragonavis02.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+/* *********parallax */
+.parallax {
+  border-bottom: 4px solid rgb(226, 226, 226);
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax1 {
+  background-image: url("../../partenaires/dragon/assets/aubondragon03.webp");
+}
+
+.parallax2 {
+  position: relative;
+  background-image: url("../../partenaires/dragon/assets/aubondragon02.webp");
+}
+
+.parallax3 {
+  position: relative;
+  background-image: url("../../partenaires/dragon/assets/aubondragon01.webp");
+}
+
+.parallax4 {
+  position: relative;
+  background-image: url("../../partenaires/dragon/assets/aubondragon02.webp");
+}
+
+
+/* *********Footer */
+footer{
+  background: linear-gradient(180deg, rgba(106, 249, 164, 1) 0%, rgba(76, 76, 76, 1) 100%);
+}
+footer p{
+  margin: 0;
+}
+
+.footerFlex{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+
+.footerPartnair{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.footerPartnair a{
+text-decoration: none;
+color: rgba(251, 216, 202, 1);
+}
+
+.footerTitle{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.footerAdresse{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+
+
+
+
