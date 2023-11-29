@@ -1,4 +1,4 @@
-  //MENU FROM BURGER ***********************
+ //MENU FROM BURGER ***********************
 // **************************************
 let myMenuBurger = document.getElementById("ulscript");
 let mydesignimg = document.getElementById("designimgscript");
