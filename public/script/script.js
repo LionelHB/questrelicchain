@@ -1,4 +1,4 @@
- //MENU FROM BURGER ***********************
+  //MENU FROM BURGER ***********************
 // **************************************
 let myMenuBurger = document.getElementById("ulscript");
 let mydesignimg = document.getElementById("designimgscript");
@@ -15,13 +15,10 @@ myBurger.addEventListener("click", function () {
 });
 
 myBurger.addEventListener("click", function () {
-    const menuVisible = myMenuBurger.classList.contains("ul-visible");
-    const designVisible = mydesignimg.classList.contains("design-visible");
-
-    if (menuVisible && designVisible) {
-      myMenuBurger.classList.remove("ul-visible", "design-visible");
+    if (myMenuBurger.classList.contains("ul-visible") && mydesignimg.classList.contains("design-visible")) {
+      myMenuBurger.classList.remove("ul-visible","design-visible");
     } else {
-      myMenuBurger.classList.add("ul-visible", "design-visible");
+      myMenuBurger.classList.add("ul-visible","design-visible");
     }
   });
 
