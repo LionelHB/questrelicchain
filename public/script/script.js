@@ -1,26 +1,29 @@
-//MENU FROM BURGER ***********************
+  //MENU FROM BURGER ***********************
 // **************************************
 let myMenuBurger = document.getElementById("ulscript");
 let mydesignimg = document.getElementById("designimgscript");
 let myBurger = document.getElementById("myburger");
 let isMenuOpen = false;
 
-function toggleMenu() {
-  const menuVisible = myMenuBurger.classList.contains("ul-visible");
-  const designVisible = mydesignimg.classList.contains("design-visible");
-
-  if (menuVisible && designVisible) {
-    myMenuBurger.classList.remove("ul-visible", "design-visible");
-    isMenuOpen = false;
-  } else {
-    myMenuBurger.classList.add("ul-visible", "design-visible");
-    isMenuOpen = true;
-  }
-}
 
 myBurger.addEventListener("click", function () {
-  toggleMenu();
+  if (!isMenuOpen) {
+    openMenu();
+  } else {
+    closeMenu();
+  }
 });
+
+myBurger.addEventListener("click", function () {
+    const menuVisible = myMenuBurger.classList.contains("ul-visible");
+    const designVisible = mydesignimg.classList.contains("design-visible");
+
+    if (menuVisible && designVisible) {
+      myMenuBurger.classList.remove("ul-visible", "design-visible");
+    } else {
+      myMenuBurger.classList.add("ul-visible", "design-visible");
+    }
+  });
 
 function openMenu() {
   // myMenuBurger.style.display = "flex";
