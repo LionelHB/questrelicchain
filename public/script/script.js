@@ -15,13 +15,8 @@ myBurger.addEventListener("click", function () {
 });
 
 myBurger.addEventListener("click", function () {
-  if (myMenuBurger.classList.contains("ul-visible") && mydesignimg.classList.contains("design-visible")) {
-    myMenuBurger.classList.remove("ul-visible");
-    mydesignimg.classList.remove("design-visible");
-  } else {
-    myMenuBurger.classList.add("ul-visible");
-    mydesignimg.classList.add("design-visible");
-  }
+  myMenuBurger.classList.toggle("ul-visible");
+  mydesignimg.classList.toggle("design-visible");
 });
 
 function openMenu() {
