@@ -5,23 +5,21 @@ let mydesignimg = document.getElementById("designimgscript");
 let myBurger = document.getElementById("myburger");
 let isMenuOpen = false;
 
+function toggleMenu() {
+  const menuVisible = myMenuBurger.classList.contains("ul-visible");
+  const designVisible = mydesignimg.classList.contains("design-visible");
+
+  if (menuVisible && designVisible) {
+    myMenuBurger.classList.remove("ul-visible", "design-visible");
+    isMenuOpen = false;
+  } else {
+    myMenuBurger.classList.add("ul-visible", "design-visible");
+    isMenuOpen = true;
+  }
+}
 
 myBurger.addEventListener("click", function () {
-  if (!isMenuOpen) {
-    openMenu();
-  } else {
-    closeMenu();
-  }
-});
-
-myBurger.addEventListener("click", function () {
-  if (myMenuBurger.classList.contains("ul-visible") && mydesignimg.classList.contains("design-visible")) {
-    myMenuBurger.classList.remove("ul-visible");
-    mydesignimg.classList.remove("design-visible");
-  } else {
-    myMenuBurger.classList.add("ul-visible");
-    mydesignimg.classList.add("design-visible");
-  }
+  toggleMenu();
 });
 
 function openMenu() {
